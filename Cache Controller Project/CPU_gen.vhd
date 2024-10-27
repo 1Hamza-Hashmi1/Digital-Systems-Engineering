@@ -3,19 +3,15 @@
 -- Engineer: 
 -- 
 -- Create Date:    23:08:33 10/02/2024 
--- Design Name: 
--- Module Name:    SDRAMcontoller - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Design Name: 		CPU Read/Write Transaction Generator
+-- Module Name:		CPU_gen - Behavioral 
+-- Target Devices: 	XC3S500E
 --
--- Dependencies: 
+-- Description: 		
+--							The circuit plays the role of a CPU, generating read
+--							and write transactions to various addresses.
 --
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Dependencies: 		None.
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
